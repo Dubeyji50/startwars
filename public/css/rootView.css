@@ -1,0 +1,15 @@
+.td-modal-header{
+    font-weight: bold;
+    text-align: right;
+    width: 50%;
+}
+
+.td-modal-content{
+    text-align: left;
+    width: 50%;
+}
+
+.pagination{
+    width: 100%;
+    text-align: center;
+}

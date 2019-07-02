@@ -1,0 +1,21 @@
+{
+  "name": "js",
+  "authors": [
+    "Jonathan Machado <jonathan.mmachado@outlook.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "font-awesome": "fontawesome#^4.7.0",
+    "toastr": "^2.1.3"
+  }
+}

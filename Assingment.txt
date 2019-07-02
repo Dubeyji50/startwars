@@ -1,0 +1,20 @@
+Integrate the Star Wars API as follows:
+
+Page 1:
+Create a form with three buttons, "Pull People/Characters", "Pull Films" and "Save Data".
+Data pulled from API should be displayed bellow form.
+On click of "Save Data", pulled data should be inserted into our laravel system database
+Submitted entries should be listed in a table format on the same page
+Every point mentioned above should be completed without page refresh
+
+Page 2:
+Show the list of films and people/characters pulled from the API.
+On click of film, list of people/characters acted (only if our database has that entry) in the film should be displayed
+On click of people/character name, list of films s/he acted (only if our database has that entry) should be displayed
+
+Ref.
+https://github.com/jjonathan/StarWarsCharList
+https://swapi.co/
+
+A1PANDEY50	
+a1@sudhir
