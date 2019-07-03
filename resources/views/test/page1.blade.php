@@ -35,10 +35,10 @@
                         <tbody>
                             @forelse($peoples as $people)
                             <tr>
-                                <td class="text-center">{{ $people->name }}</td>
-                                <td class="text-center">{{ $people->gender }}</td>
-                                <td class="text-center">{{ $people->birth_year }}</td>
-                                <td class="text-center">{{ $people->hair_color }}</td>
+                                <td class="text-center attrName">{{ $people->name }}</td>
+                                <td class="text-center attrGen">{{ $people->gender }}</td>
+                                <td class="text-center attrByear">{{ $people->birth_year }}</td>
+                                <td class="text-center attrHcolor">{{ $people->hair_color }}</td>
                             </tr>
                             @empty
                             <tr>
@@ -54,6 +54,14 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="panel-heading">Database Row</div>
+                <div class="panel-body">
+                    <table class="list-order" id="records_table" border="1"> 
+
+                    </table>   
+                </div>
+
             </div>
         </div>
     </div>

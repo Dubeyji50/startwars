@@ -14,6 +14,7 @@
 Route::get('/', 'RootController@index');
 
 Route::get('/p1', 'RootController@page1');
+Route::post('/ajax/save', 'RootController@ajaxSave');
 
 Auth::routes();
 
